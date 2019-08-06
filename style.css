@@ -1,16 +1,50 @@
-*{text-align: center;
-outline:solid 1px red}
-.intro {
-  background-color:darkblue;
+*{outline: solid 1px red;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.intro {text-align: center;
+  background-color:navy;
   color:white;
   border: solid 1px black
 }
-h2{display: inline;
-border-top: solid 15px aquamarine}
-p{margin-inline-start: 244.07px;
-margin-inline-end: 244.07px}
+h2{display:inline-block;
+  position: relative;
+  left: 510px;
+text-align: center;
+border-top: solid 15px skyblue;
+}
+.info{font-size: large;
+position: relative;
+left:320px;
+text-align:left;
+  display: inline-block;
+width: 259px;}
 #bottom{
   margin-inline-start:0px;
   margin-inline-end: 0px; 
-  background-color: darkblue
+  background-color: navy
 }
+.image{color: white;
+
+
+  background-color:blue;
+display:inline-block;
+width: 150px;
+text-align: center;
+border-top:solid 5px blue;
+border-bottom: solid 20px blue;
+border-right: solid 10px blue;
+border-left: solid 10px blue;
+}
+.description {
+  display:inline-block;width: 200px;
+text-align: left;
+font-size: small;
+}
+.description h4 {font-size: normal}
+.side{
+  display:inline-block;width: 200px;
+position: relative;
+left:900px;
+bottom: 300px;}
+.lead{font-size:20px;
+font-style: oblique}
