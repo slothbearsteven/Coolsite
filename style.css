@@ -1,7 +1,7 @@
 *{text-align: center;
 outline:solid 1px red}
 .intro {
-  background-color:blue;
+  background-color:darkblue;
   color:white;
   border: solid 1px black
 }
@@ -9,3 +9,8 @@ h2{display: inline;
 border-top: solid 15px aquamarine}
 p{margin-inline-start: 244.07px;
 margin-inline-end: 244.07px}
+#bottom{
+  margin-inline-start:0px;
+  margin-inline-end: 0px; 
+  background-color: darkblue
+}
